@@ -1,3 +1,12 @@
+/*
+Detta är ett spel gjort av Ramin, Alexander och Assid. Vi fick inspirationen av spelet på https://www.abcya.com/games/guess_the_number.
+Det vi lade till i detta projektet är winstreaks. Det är fritt fram att använda våran kod till vad du vill. Vi står inte för problem som uppstår med koden.
+Projektet är skrivet i javascript med hjälp av VisualStudio Code.
+För att spela spelet ehöver du ladda ned Node genom deras hemsida https://nodejs.org/en/. Du börjar med att skriva node number.js.
+Spelet frågar dig ifall du vill starta. Sedan väljer man svårhetsgrad på spelet, därefter gissar du på ett slumpmässigt nummer beroende på svårhetsgraden du tidigare valt.
+Om du vinner eller förlorar kommer du bli frågad ifall du vill spela igen eller inte. Väljer du att spela igen så kommer du att få välja svårhetsgrad igen.
+*/
+
 const prompt = require("prompt-sync") ();
 let player = { health: 5, winStreaks: 0 };
 const congrats = 
