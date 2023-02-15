@@ -26,7 +26,7 @@ const gameOver =
 console.log("\nGuess the number to win the game!\n");
 
 function gameMode(numberRange, instructions) {
-    let randomGeneratedNumber = Math.round(Math.random() * numberRange);
+    let randomGeneratedNumber = Math.round(Math.ceil(Math.random() * 10));
     console.log(instructions);
            
     while (player.health !== 0 && playerGuess !== randomGeneratedNumber) {
